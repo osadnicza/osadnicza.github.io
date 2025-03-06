@@ -707,14 +707,8 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-to2HP5JRBK {
-  z-index: 1000;
-  width: 100%;
-  position: relative;
-  min-height: 60px;
-}
-.cid-to2HP5JRBK nav.navbar {
-  position: fixed;
+.cid-to2HP5JRBK .navbar-dropdown {
+  position: relative !important;
 }
 .cid-to2HP5JRBK .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1043,7 +1037,6 @@ a {
 }
 .cid-to2HP5JRBK .navbar-dropdown {
   padding: 0 1rem;
-  position: fixed;
 }
 .cid-to2HP5JRBK a.nav-link {
   display: flex;
@@ -1255,7 +1248,7 @@ a {
 }
 .cid-to225serED {
   padding-top: 0rem;
-  padding-bottom: 0rem;
+  padding-bottom: 1rem;
   background: #ffffff;
 }
 .cid-to225serED .mbr-fallback-image.disabled {
@@ -1329,6 +1322,9 @@ a {
   font-size: 2rem;
   padding-right: 1.5rem;
   color: #ffffff;
+}
+.cid-to225serED .mbr-section-title {
+  text-align: center;
 }
 .cid-s48P1Icc8J {
   padding-top: 2rem;
